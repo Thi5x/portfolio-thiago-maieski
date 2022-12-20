@@ -129,6 +129,10 @@ button:hover{
 }
 
 @media screen and (max-width:699px){
+
+    *{
+        overflow: scroll;
+    }
     .cabeçalho-link {
         display: grid;
 }
@@ -143,6 +147,11 @@ button:hover{
         align-items: center;
         padding: 0;
         padding-top: 60px;
+        padding-bottom: 100px;
     }
     
+}
+
+@media screen and (max-width:699px){
+
 }
